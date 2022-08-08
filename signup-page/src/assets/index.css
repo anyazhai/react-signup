@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*utilities*/
+
+.buttons{
+  width: 60%;
+  margin: auto;
+}
+
+.btn{
+  padding: 10px 0px;
+  width: 150px;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.btn-primary{
+  border: 2px solid #006EF7;
+  background-color: #006ff70f;
+  transition: ease-in 0.2s;
+}
+
+.btn-primary:hover{
+  background-color: #006ff724;
+}
+
+.btn-secondary{
+  border: 2px solid #006EF7;
+  background-color: #006ff7;
+  color: rgb(255, 255, 255);
+  transition: ease-in 0.2s;
+}
+
+.btn-secondary:hover{
+  background-color: rgb(0, 157, 255)
+}
+
+.steps{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  left: -3%;
+}
+
+.steps div{
+  background-color: white;;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 95px;
+  box-shadow: 0px 2px 5px 0px #006ff780;
+  
+}
+
+#steps-g .one{
+  border: 1px solid #006EF7;
+  outline: 2px solid #006EF7;
+}
+
+#steps-s .one{
+  border: 2px solid #006EF7;
+  outline: 4px solid #006EF7;
+}
+
+#steps-s .two{
+  border: 1px solid #006EF7;
+  outline: 2px solid #006EF7;
+}
+
+#steps-c .one, #steps-c .two{
+  border: 2px solid #006EF7;
+  outline: 4px solid #006EF7;
+}
+
+#steps-c .three{
+  border: 1px solid #006EF7;
+  outline: 2px solid #006EF7;
+}
+
+.steps div h3{
+  padding: 10px 16px;
+}
+
+#image{
+  z-index: -10;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/bluerect.png);
+}
+
+.card{
+  border-radius: 30px 0 0 30px;
+  box-shadow: 10px 5px 8px 10px #0000004b;
+  padding: 40px;
+  margin-left: 40%;
+  position: relative;
+  height: 100vh;
+  width: 60%;
+  float: left;
+  background-color: white;
+}
+
+.heading > h1{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 36px;
+  color: #006EF7;
+}
+
+.heading > h4{
+  font-weight: 300;
+  margin-top: 5px;
+  text-align: center;
+}
+
+form{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.flex{
+  display: flex;
+  width: 100%;
+}
+
+form input{
+  transition-timing-function: .5s;
+  width: 100%;
+  font-size: 15px;
+  margin: 23px 10px;
+  padding: 15px 10px;
+  border: none;
+  /* border: 1px solid #006ff782; */
+  box-shadow: 0px 1.5px 3px 0px #006ff779;
+}
+
+.contact input{
+  margin: 17px 10px;
+  
+}
+
+form input:focus{
+  outline: none;
+  border: 1px solid #006ff7b8;
+  background-color: #006ff70f;
+}
+
+form div a{
+  position: absolute;
+  font-size: 10px;
+  left: 39%;
+  bottom: 200px;
+  cursor: pointer;
+}
