@@ -1,6 +1,8 @@
 A Multistep sign-up page for e-commerce website implemented using React.
 
 
+
+
 To run the react app, change the path to this file's directory and run:
 
 npm start
