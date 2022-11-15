@@ -1,3 +1,2 @@
-# react-sign
+A Multistep sign-up page for e-commerce website implemented using React.
 
-It requires the installation of dependencies in pakcage.json for the interactive page to work.
